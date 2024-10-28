@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapi Money</title>
+    <meta name="title" content="Rapi Money" />
+    <meta name="description" content="Tu plataforma financiera rápida y confiable" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href ="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+        <a href="#" class="logo">RAPI MONEY</a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item"><a href="#home" class="navbar-link" data-nav-link>Inicio</a></li>
+            <li class="navbar-item"><a href="#shop" class="navbar-link" data-nav-link>Servicios</a></li>
+            <li class="navbar-item"><a href="#categories" class="navbar-link" data-nav-link>Persona</a></li>
+            <li class="navbar-item"><a href="#footer" class="navbar-link" data-nav-link>Contacto</a></li>
+          </ul>
+          <div class="caja-iniciar">
+            <div class="caja-iniciar-sesion">
+                <button id="btn-iniciar-sesion" onclick="window.location.href='indexl.html'">Iniciar sesión</button>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar" data-navbar></nav>
+      </div>
+    </header>
+    
+    <main>
+      <article>
+        <section
+          class="section hero has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/money.jpg')"
+        >
+          <div class="container">
+            <h1 class="h1 hero-title">
+              <span class="span"></span> <span style="color: rgba(51, 42, 42, 0.952);">RAPI CASH</span>
+            </h1>
+            <p class="hero-text" style="font-style: italic; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); color: black; font-weight: bold;">Tu mejor opción financiera</p>
+
+            <a href="#" class="btn">Conviértete en un "RAPI CASH" ahora</a>
+          </div>
+        </section>
+
+        <!-- 
+        - #CATEGORY
+      -->
+
+        <section class="section category" aria-label="category" id="categories">
+          <div class="container">
+            <h2 class="h2 section-title">
+              <span class="span">Conoce más</span> sobre Nuestros Servicios
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="category-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 330; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/category-4.jpg"
+                      width="330"
+                      height="300"
+                      loading="lazy"
+                      alt="Préstamos Personales"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Préstamos Personales</a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+       
+        <!-- 
+        - #OFFERS
+      -->
+
+        <section class="section offer" aria-label="offer">
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="offer-card has-bg-image img-holder"
+                  style="
+                    background-image: url('./assets/images/offer-banner-1.jpg');
+                    --width: 540;
+                    --height: 374;
+                  "
+                >
+                  <p class="card-subtitle">Siempre seguros.</p>
+
+                  <h3 class="h3 card-title">
+                    Inversiones para <span class="span">tu futuro</span>
+                  </h3>
+
+                  <a href="#" class="btn">Leer más</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="offer-card has-bg-image img-holder"
+                  style="
+                    background-image: url('./assets/images/offer-banner-2.jpg');
+                    --width: 540;
+                    --height: 374;
+                  "
+                >
+                  <p class="card-subtitle">Ahorra</p>
+
+                  <h3 class="h3 card-title">
+                    Llena tus bolsillos de <span class="span">oportunidades</span>
+                  </h3>
+
+                  <a href="#" class="btn">Leer más</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="offer-card has-bg-image img-holder"
+                  style="
+                    background-image: url('./assets/images/offer-banner-3.jpg');
+                    --width: 540;
+                    --height: 374;
+                  "
+                >
+                  <p class="card-subtitle">Expande</p>
+
+                  <h3 class="h3 card-title">
+                    Crecimiento en todas las <span class="span">formas</span>
+                  </h3>
+
+                  <a href="#" class="btn">Leer más</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PRODUCT
+      -->
+
+        <section class="section product" id="shop" aria-label="product">
+          <div class="container">
+            <h2 class="h2 section-title">
+              <span class="span">Nuestros Productos</span>
+            </h2>
+
+          
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" aria-label="service">
+          <div class="container">
+            <img
+              src="./assets/images/service-image.png"
+              width="122"
+              height="136"
+              loading="lazy"
+              alt=""
+              class="img"
+            />
+
+            <h2 class="h2 section-title">
+              <span class="span">El dinero que necesitas,</span> cuando lo
+              necesitas.
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-1.png"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">Aprobación el mismo día</h3>
+
+                  <p class="card-text">
+                    Solicite antes de las 14:00 (hora local) para obtener la aprobación de préstamos de S/3500+ hoy mismo.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-2.png"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">Período de gracia de 30 días</h3>
+
+                  <p class="card-text">
+                    35% de descuento en su primer préstamo más 5% de descuento en todos los préstamos futuros.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-3.png"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">Transacciones seguras</h3>
+
+                  <p class="card-text">
+                    25% de descuento en su inversión online de S/5000+. Disponible en la mayoría de los productos financieros.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-4.png"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">Asistencia 24/7</h3>
+
+                  <p class="card-text">
+                    Solicite en línea y reciba sus préstamos superiores a S/3500 de forma rápida y segura.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section
+          class="cta has-bg-image"
+          aria-label="cta"
+          style="background-image: url('./assets/images/cta-bg.jpg')"
+        >
+          <div class="container">
+            <figure class="cta-banner">
+              <img
+                src="./assets/images/cta-banner.png"
+                width="900"
+                height="660"
+                loading="lazy"
+                alt="financial growth"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="cta-content">
+              <img
+                src="./assets/images/cta-icon.png"
+                width="120"
+                height="35"
+                loading="lazy"
+                alt="satisfaction guarantee"
+                class="img"
+              />
+
+              <h2 class="h2 section-title">
+                Pruébalo, ámalo o te devolvemos tu dinero... ¡Garantizado!
+              </h2>
+
+              <p class="section-text">
+                Tu satisfacción es nuestra prioridad
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #BRAND
+      -->
+
+        <section class="section brand" aria-label="brand">
+          <div class="container">
+            <h2 class="h2 section-title">
+              <span class="span">Cómo </span>invertir
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div
+                  class="brand-card img-holder"
+                  style="--width: 150; --height: 150"
+                >
+                  <img
+                    src="./assets/images/brand-1.jpg"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                    alt="brand logo"
+                    class="img-cover"
+                  />
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div
+                  class="brand-card img-holder"
+                  style="--width: 150; --height: 150"
+                >
+                  <img
+                    src="./assets/images/brand-2.jpg"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                    alt="brand logo"
+                    class="img-cover"
+                  />
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div
+                  class="brand-card img-holder"
+                  style="--width: 150; --height: 150"
+                >
+                  <img
+                    src="./assets/images/brand-3.jpg"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                    alt="brand logo"
+                    class="img-cover"
+                  />
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div
+                  class="brand-card img-holder"
+                  style="--width: 150; --height: 150"
+                >
+                  <img
+                    src="./assets/images/brand-4.jpg"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                    alt="brand logo"
+                    class="img-cover"
+                  />
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div
+                  class="brand-card img-holder"
+                  style="--width: 150; --height: 150"
+                >
+                  <img
+                    src="./assets/images/brand-5.jpg"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                    alt="brand logo"
+                    class="img-cover"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+   
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+  
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+      id="footer"
+    >
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">RAPI CASH</a>
+
+            <p class="footer-text">
+              Si tiene alguna duda, contáctese a
+              <a href="mailto:support@gmail.com" class="link"
+                >support@RapiCash.com</a
+              >
+            </p>
+
+            <ul class="contact-list">
+              <li class="contact-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="address">Dirección, Los Olivos</address>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:+16234567891011" class="contact-link"
+                  >(+51) 999 999 999</a
+                >
+              </li>
+            </ul>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 Hecho por
+            <a href="#" class="copyright-link">Nosotros</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+ 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
